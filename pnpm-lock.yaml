@@ -9,23 +9,23 @@ importers:
   .:
     dependencies:
       '@material/button':
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^14.0.0
+        version: 14.0.0
       '@material/dialog':
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^14.0.0
+        version: 14.0.0
       '@material/icon-button':
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^14.0.0
+        version: 14.0.0
       '@material/ripple':
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^14.0.0
+        version: 14.0.0
       '@material/snackbar':
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^14.0.0
+        version: 14.0.0
       '@material/textfield':
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^14.0.0
+        version: 14.0.0
       '@simonwep/pickr':
         specifier: ^1.10.2
         version: 1.10.2
@@ -41,7 +41,7 @@ importers:
         version: 8.0.6
       '@babel/plugin-proposal-class-properties':
         specifier: ^7.18.6
-        version: 7.18.6(@babel/core@8.0.6)
+        version: 7.18.6(@babel/core@8.0.6)(supports-color@7.2.0)
       '@babel/plugin-proposal-export-default-from':
         specifier: ^8.0.1
         version: 8.0.1(@babel/core@8.0.6)
@@ -56,22 +56,22 @@ importers:
         version: 8.0.6(@babel/core@8.0.6)
       babel-eslint:
         specifier: ^10.1.0
-        version: 10.1.0(eslint@7.32.0)
+        version: 10.1.0(eslint@7.32.0(supports-color@7.2.0))(supports-color@7.2.0)
       eslint:
         specifier: ^7.32.0
-        version: 7.32.0
+        version: 7.32.0(supports-color@7.2.0)
       gulp:
         specifier: ^4.0.2
-        version: 4.0.2
+        version: 4.0.2(supports-color@7.2.0)
       gulp-autoprefixer:
         specifier: ^7.0.1
-        version: 7.0.1(gulp@4.0.2)
+        version: 7.0.1(gulp@4.0.2(supports-color@7.2.0))
       gulp-better-rollup:
         specifier: ^4.0.1
         version: 4.0.1(rollup@2.80.0)
       gulp-connect:
         specifier: ^5.7.0
-        version: 5.7.0
+        version: 5.7.0(supports-color@7.2.0)
       gulp-sass:
         specifier: ^4.1.1
         version: 4.1.1
@@ -705,65 +705,71 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@material/animation@6.0.0':
-    resolution: {integrity: sha512-BxlzXzQ5W2WtaEVV4/PqkTpKB5PfOUvPmr1EK8+xQ0ouMV4qiWuwBfnu7DgXF+cglpFP3T71uHVYmh6lMdi4vg==}
+  '@material/animation@14.0.0':
+    resolution: {integrity: sha512-VlYSfUaIj/BBVtRZI8Gv0VvzikFf+XgK0Zdgsok5c1v5DDnNz5tpB8mnGrveWz0rHbp1X4+CWLKrTwNmjrw3Xw==}
 
-  '@material/base@6.0.0':
-    resolution: {integrity: sha512-S3rT7B9xa9IfHXIvYXYqbo6YVu9FWbFqTt1tMUCniizTRlpmHu9b5pmQ20f6mm3K3wAFD+crqsrtie2Y8h8r5g==}
+  '@material/base@14.0.0':
+    resolution: {integrity: sha512-Ou7vS7n1H4Y10MUZyYAbt6H0t67c6urxoCgeVT7M38aQlaNUwFMODp7KT/myjYz2YULfhu3PtfSV3Sltgac9mA==}
 
-  '@material/button@6.0.0':
-    resolution: {integrity: sha512-Xv83A5dL5l8hQHM1gOeD/0DpjsbzPeZtrXBWvf2q0d1uN0LE52ocrTHXJnJw9zNudoaBTopTQDsFQEdWqVYlFA==}
+  '@material/button@14.0.0':
+    resolution: {integrity: sha512-dqqHaJq0peyXBZupFzCjmvScrfljyVU66ZCS3oldsaaj5iz8sn33I/45Z4zPzdR5F5z8ExToHkRcXhakj1UEAA==}
 
-  '@material/density@6.0.0':
-    resolution: {integrity: sha512-svKiq7XtUg89hf08XGFF46NdiQAZfey5CiatmNxD3WX7LUoCb5zc8K9BqPL63P1Sh6kty9R0AHj+6w4ASFetPA==}
+  '@material/density@14.0.0':
+    resolution: {integrity: sha512-NlxXBV5XjNsKd8UXF4K/+fOXLxoFNecKbsaQO6O2u+iG8QBfFreKRmkhEBb2hPPwC3w8nrODwXX0lHV+toICQw==}
 
-  '@material/dialog@6.0.0':
-    resolution: {integrity: sha512-3jWoCFYfT2qx1Iz3OT8mIiRXgESQY8OiWD5N7IwkZXzZgO5fNC0SL05NQaKEQ5lwyVPvQP/DggPYc2jveiPWhQ==}
+  '@material/dialog@14.0.0':
+    resolution: {integrity: sha512-E07NEE4jP8jHaw/y2Il2R1a3f4wDFh2sgfCBtRO/Xh0xxJUMuQ7YXo/F3SAA8jfMbbkUv/PHdJUM3I3HmI9mAA==}
 
-  '@material/dom@6.0.0':
-    resolution: {integrity: sha512-9hvoi3MxR25dmyv15xJGRS+Ezlr0oD+Y6k4UyAbLpExFP2OakTZc8Xj0Fd7Nwav3I5aIXyC5jJ2gvhZcy1cI9A==}
+  '@material/dom@14.0.0':
+    resolution: {integrity: sha512-8t88XyacclTj8qsIw9q0vEj4PI2KVncLoIsIMzwuMx49P2FZg6TsLjor262MI3Qs00UWAifuLMrhnOnfyrbe7Q==}
 
-  '@material/elevation@6.0.0':
-    resolution: {integrity: sha512-9WNBu/MKTQX40Ev3ayq5V8Pf/E/DqUPRQO8F0YA99jRWuYScpX2zeJlpRe+wLI6zIxtfFcVvRW9D4O1s1Bmbdg==}
+  '@material/elevation@14.0.0':
+    resolution: {integrity: sha512-Di3tkxTpXwvf1GJUmaC8rd+zVh5dB2SWMBGagL4+kT8UmjSISif/OPRGuGnXs3QhF6nmEjkdC0ijdZLcYQkepw==}
 
-  '@material/feature-targeting@6.0.0':
-    resolution: {integrity: sha512-REj9VJnqkGwpngffc/iHGPt8WTF27QFPWDD8VBNXaP+MmnpIu7V5q5JMoozKzG5uk+hVryzam1i2PJHztizDXg==}
+  '@material/feature-targeting@14.0.0':
+    resolution: {integrity: sha512-a5WGgHEq5lJeeNL5yevtgoZjBjXWy6+klfVWQEh8oyix/rMJygGgO7gEc52uv8fB8uAIoYEB3iBMOv8jRq8FeA==}
 
-  '@material/floating-label@6.0.0':
-    resolution: {integrity: sha512-hLCsJKAJtVUUcxTbphqn6JZTbkOa3TW5nLgcwcgWqTbjOWOafppnplKELeM+6oDvwg/YDcGSsvuPUOsCMRiXvw==}
+  '@material/floating-label@14.0.0':
+    resolution: {integrity: sha512-Aq8BboP1sbNnOtsV72AfaYirHyOrQ/GKFoLrZ1Jt+ZGIAuXPETcj9z7nQDznst0ZeKcz420PxNn9tsybTbeL/Q==}
 
-  '@material/icon-button@6.0.0':
-    resolution: {integrity: sha512-ak1BIG20FVAIj4oV20YbDhvYWIS8kn6cCcJomVBB/f8uA4OX6NO77xwaJ9tBZTURkvLJ0Z5coDLinxOHN15ffQ==}
+  '@material/focus-ring@14.0.0':
+    resolution: {integrity: sha512-fqqka6iSfQGJG3Le48RxPCtnOiaLGPDPikhktGbxlyW9srBVMgeCiONfHM7IT/1eu80O0Y67Lh/4ohu5+C+VAQ==}
 
-  '@material/line-ripple@6.0.0':
-    resolution: {integrity: sha512-LppQy+bnkAD+tyGOA6/GzE4/xBGRzvJNGJZe0OvClerBxM9yOtxd8Xa8VJ+ul1hTNR/OCB2HSTWNQq5fyqTQHg==}
+  '@material/icon-button@14.0.0':
+    resolution: {integrity: sha512-wHMqzm7Q/UwbWLoWv32Li1r2iVYxadIrwTNxT0+p+7NdfI3lEwMN3NoB0CvoJnHTljjXDzce0KJ3nZloa0P0gA==}
 
-  '@material/notched-outline@6.0.0':
-    resolution: {integrity: sha512-fSn/3rQblUmFny3qeCnWgXkQyV+nfpuXmPhf41cjUlu28TnTKA2YayL+vg8Ebi97l6osAFaT/1dEaebvpwebaQ==}
+  '@material/line-ripple@14.0.0':
+    resolution: {integrity: sha512-Rx9eSnfp3FcsNz4O+fobNNq2PSm5tYHC3hRpY2ZK3ghTvgp3Y40/soaGEi/Vdg0F7jJXRaBSNOe6p5t9CVfy8Q==}
 
-  '@material/ripple@6.0.0':
-    resolution: {integrity: sha512-z+ARpjBVkRZBhiX20aAxAMrgBcfpcCRqIcI/E3Esfyo7M+q/mm8t92ZumcahxWnOBJkHM55kkpUqHlfkYlfyZQ==}
+  '@material/notched-outline@14.0.0':
+    resolution: {integrity: sha512-6S58DlWmhCDr4RQF2RuwqANxlmLdHtWy2mF4JQLD9WOiCg4qY9eCQnMXu3Tbhr7f/nOZ0vzc7AtA3vfJoZmCSw==}
 
-  '@material/rtl@6.0.0':
-    resolution: {integrity: sha512-/WkzlUm3qylWMqv7Lw7ColZ8DYvEvTXtevxxz7PKM1hT9FNlbO1/Qywvda4VUtXivEeynXEqeT1T/ZYHV9yDVw==}
+  '@material/ripple@14.0.0':
+    resolution: {integrity: sha512-9XoGBFd5JhFgELgW7pqtiLy+CnCIcV2s9cQ2BWbOQeA8faX9UZIDUx/g76nHLZ7UzKFtsULJxZTwORmsEt2zvw==}
 
-  '@material/shape@6.0.0':
-    resolution: {integrity: sha512-tZT9GGWI3QcOtyfJ07Hc3noP2b5Bvx2npx/aj+k7gEIkE06mzr08dVnVOup8z8HbHWIenxRJgdeF5+lAfBE3vw==}
+  '@material/rtl@14.0.0':
+    resolution: {integrity: sha512-xl6OZYyRjuiW2hmbjV2omMV8sQtfmKAjeWnD1RMiAPLCTyOW9Lh/PYYnXjxUrNa0cRwIIbOn5J7OYXokja8puA==}
 
-  '@material/snackbar@6.0.0':
-    resolution: {integrity: sha512-Cu2DXatt50qllxfJu4VwWTF74eg61bP7jmVE29O6y4LsHIjj1LYYEGBKJNYOPgsAXGgjqB+D4ssrWEr0Hl4Sew==}
+  '@material/shape@14.0.0':
+    resolution: {integrity: sha512-o0mJB0+feOv473KckI8gFnUo8IQAaEA6ynXzw3VIYFjPi48pJwrxa0mZcJP/OoTXrCbDzDeFJfDPXEmRioBb9A==}
 
-  '@material/textfield@6.0.0':
-    resolution: {integrity: sha512-BZAdsVYilstY4rvHxb0n/Vgs4/IcAO7U5dpcLDRWJlvOtbtfxNl4C5HuSaVUz7Mxr7+HhZAZfz3GkC1YY9XeEQ==}
+  '@material/snackbar@14.0.0':
+    resolution: {integrity: sha512-28uQBj9bw7BalNarK9j8/aVW4Ys5aRaGHoWH+CeYvAjqQUJkrYoqM52aiKhBwqrjBPMJHk1aXthe3YbzMBm6vA==}
 
-  '@material/theme@6.0.0':
-    resolution: {integrity: sha512-dViBx1lsidoQhVi/MYksTmDs8aUPj3mPVQIaBPtDRtqpIuWSwG7bCHoY8rG8FHRduPLpq3b1A4OwKHBd0RWVJw==}
+  '@material/textfield@14.0.0':
+    resolution: {integrity: sha512-HGbtAlvlIB2vWBq85yw5wQeeP3Kndl6Z0TJzQ6piVtcfdl2mPyWhuuVHQRRAOis3rCIaAAaxCQYYTJh8wIi0XQ==}
 
-  '@material/touch-target@6.0.0':
-    resolution: {integrity: sha512-qZjrxo6honqxRV2Gy7spgkfj1qzSwy2IC8xtQb6bIolDD7kbzOxmyyaMi+TxQE0QnRWG/w6DVBSsPPQGNt4Saw==}
+  '@material/theme@14.0.0':
+    resolution: {integrity: sha512-6/SENWNIFuXzeHMPHrYwbsXKgkvCtWuzzQ3cUu4UEt3KcQ5YpViazIM6h8ByYKZP8A9d8QpkJ0WGX5btGDcVoA==}
 
-  '@material/typography@6.0.0':
-    resolution: {integrity: sha512-+4UUEYOxINMRUdyAltd1HFydjAy+MeXqUkFUXXNVsi5nFlpGTpMrxriwVaeL++XlGgvziJjDzaOe6S7zkwYxOQ==}
+  '@material/tokens@14.0.0':
+    resolution: {integrity: sha512-SXgB9VwsKW4DFkHmJfDIS0x0cGdMWC1D06m6z/WQQ5P5j6/m0pKrbHVlrLzXcRjau+mFhXGvj/KyPo9Pp/Rc8Q==}
+
+  '@material/touch-target@14.0.0':
+    resolution: {integrity: sha512-o3kvxmS4HkmZoQTvtzLJrqSG+ezYXkyINm3Uiwio1PTg67pDgK5FRwInkz0VNaWPcw9+5jqjUQGjuZMtjQMq8w==}
+
+  '@material/typography@14.0.0':
+    resolution: {integrity: sha512-/QtHBYiTR+TPMryM/CT386B2WlAQf/Ae32V324Z7P40gHLKY/YBXx7FDutAWZFeOerq/two4Nd2aAHBcMM2wMw==}
 
   '@parcel/watcher-android-arm64@2.6.0':
     resolution: {integrity: sha512-trgpLSCKRC/huFjXX/Smh+0sWe4+YtKfktIToiMl59ghz7z+qkH6kMvNnUbLyRs9N11t8l4svSCs1+5B3rOAhA==}
@@ -3160,8 +3166,8 @@ packages:
   true-case-path@1.0.3:
     resolution: {integrity: sha512-m6s2OdQe5wgpFMC+pAJ+q9djG82O2jcHPOI6RNg1yy9rCYR+WD6Nbpl32fDpfC56nirdRy+opFa/Vk7HYhqaew==}
 
-  tslib@1.14.1:
-    resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
+  tslib@2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
   tunnel-agent@0.6.0:
     resolution: {integrity: sha512-McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR2NZuQ+w==}
@@ -3436,15 +3442,15 @@ snapshots:
       flru: 1.0.2
       verkit: 0.3.2
 
-  '@babel/helper-create-class-features-plugin@7.29.7(@babel/core@8.0.6)':
+  '@babel/helper-create-class-features-plugin@7.29.7(@babel/core@8.0.6)(supports-color@7.2.0)':
     dependencies:
       '@babel/core': 8.0.6
       '@babel/helper-annotate-as-pure': 7.29.7
-      '@babel/helper-member-expression-to-functions': 7.29.7
+      '@babel/helper-member-expression-to-functions': 7.29.7(supports-color@7.2.0)
       '@babel/helper-optimise-call-expression': 7.29.7
-      '@babel/helper-replace-supers': 7.29.7(@babel/core@8.0.6)
-      '@babel/helper-skip-transparent-expression-wrappers': 7.29.7
-      '@babel/traverse': 7.29.8
+      '@babel/helper-replace-supers': 7.29.7(@babel/core@8.0.6)(supports-color@7.2.0)
+      '@babel/helper-skip-transparent-expression-wrappers': 7.29.7(supports-color@7.2.0)
+      '@babel/traverse': 7.29.8(supports-color@7.2.0)
       semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
@@ -3478,9 +3484,9 @@ snapshots:
 
   '@babel/helper-globals@8.0.6': {}
 
-  '@babel/helper-member-expression-to-functions@7.29.7':
+  '@babel/helper-member-expression-to-functions@7.29.7(supports-color@7.2.0)':
     dependencies:
-      '@babel/traverse': 7.29.8
+      '@babel/traverse': 7.29.8(supports-color@7.2.0)
       '@babel/types': 7.29.8
     transitivePeerDependencies:
       - supports-color
@@ -3523,12 +3529,12 @@ snapshots:
       '@babel/helper-wrap-function': 8.0.0
       '@babel/traverse': 8.0.6
 
-  '@babel/helper-replace-supers@7.29.7(@babel/core@8.0.6)':
+  '@babel/helper-replace-supers@7.29.7(@babel/core@8.0.6)(supports-color@7.2.0)':
     dependencies:
       '@babel/core': 8.0.6
-      '@babel/helper-member-expression-to-functions': 7.29.7
+      '@babel/helper-member-expression-to-functions': 7.29.7(supports-color@7.2.0)
       '@babel/helper-optimise-call-expression': 7.29.7
-      '@babel/traverse': 7.29.8
+      '@babel/traverse': 7.29.8(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -3539,9 +3545,9 @@ snapshots:
       '@babel/helper-optimise-call-expression': 8.0.0
       '@babel/traverse': 8.0.6
 
-  '@babel/helper-skip-transparent-expression-wrappers@7.29.7':
+  '@babel/helper-skip-transparent-expression-wrappers@7.29.7(supports-color@7.2.0)':
     dependencies:
-      '@babel/traverse': 7.29.8
+      '@babel/traverse': 7.29.8(supports-color@7.2.0)
       '@babel/types': 7.29.8
     transitivePeerDependencies:
       - supports-color
@@ -3620,10 +3626,10 @@ snapshots:
       '@babel/core': 8.0.6
       '@babel/helper-plugin-utils': 8.0.1(@babel/core@8.0.6)
 
-  '@babel/plugin-proposal-class-properties@7.18.6(@babel/core@8.0.6)':
+  '@babel/plugin-proposal-class-properties@7.18.6(@babel/core@8.0.6)(supports-color@7.2.0)':
     dependencies:
       '@babel/core': 8.0.6
-      '@babel/helper-create-class-features-plugin': 7.29.7(@babel/core@8.0.6)
+      '@babel/helper-create-class-features-plugin': 7.29.7(@babel/core@8.0.6)(supports-color@7.2.0)
       '@babel/helper-plugin-utils': 7.29.7
     transitivePeerDependencies:
       - supports-color
@@ -4029,7 +4035,7 @@ snapshots:
       '@babel/parser': 8.0.6
       '@babel/types': 8.0.6
 
-  '@babel/traverse@7.29.8':
+  '@babel/traverse@7.29.8(supports-color@7.2.0)':
     dependencies:
       '@babel/code-frame': 7.29.7
       '@babel/generator': 7.29.8
@@ -4037,7 +4043,7 @@ snapshots:
       '@babel/parser': 7.29.9
       '@babel/template': 7.29.7
       '@babel/types': 7.29.8
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -4061,10 +4067,10 @@ snapshots:
       '@babel/helper-string-parser': 8.0.6
       '@babel/helper-validator-identifier': 8.0.6
 
-  '@eslint/eslintrc@0.4.3':
+  '@eslint/eslintrc@0.4.3(supports-color@7.2.0)':
     dependencies:
       ajv: 6.15.0
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
       espree: 7.3.1
       globals: 13.24.0
       ignore: 4.0.6
@@ -4075,10 +4081,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@humanwhocodes/config-array@0.5.0':
+  '@humanwhocodes/config-array@0.5.0(supports-color@7.2.0)':
     dependencies:
       '@humanwhocodes/object-schema': 1.2.1
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
       minimatch: 3.1.5
     transitivePeerDependencies:
       - supports-color
@@ -4104,159 +4110,196 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.6.0
 
-  '@material/animation@6.0.0':
+  '@material/animation@14.0.0':
     dependencies:
-      tslib: 1.14.1
+      tslib: 2.8.1
 
-  '@material/base@6.0.0':
+  '@material/base@14.0.0':
     dependencies:
-      tslib: 1.14.1
+      tslib: 2.8.1
 
-  '@material/button@6.0.0':
+  '@material/button@14.0.0':
     dependencies:
-      '@material/density': 6.0.0
-      '@material/elevation': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/ripple': 6.0.0
-      '@material/rtl': 6.0.0
-      '@material/shape': 6.0.0
-      '@material/theme': 6.0.0
-      '@material/touch-target': 6.0.0
-      '@material/typography': 6.0.0
+      '@material/density': 14.0.0
+      '@material/dom': 14.0.0
+      '@material/elevation': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/focus-ring': 14.0.0
+      '@material/ripple': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/shape': 14.0.0
+      '@material/theme': 14.0.0
+      '@material/tokens': 14.0.0
+      '@material/touch-target': 14.0.0
+      '@material/typography': 14.0.0
+      tslib: 2.8.1
 
-  '@material/density@6.0.0': {}
-
-  '@material/dialog@6.0.0':
+  '@material/density@14.0.0':
     dependencies:
-      '@material/animation': 6.0.0
-      '@material/base': 6.0.0
-      '@material/button': 6.0.0
-      '@material/dom': 6.0.0
-      '@material/elevation': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/ripple': 6.0.0
-      '@material/rtl': 6.0.0
-      '@material/shape': 6.0.0
-      '@material/theme': 6.0.0
-      '@material/touch-target': 6.0.0
-      '@material/typography': 6.0.0
-      tslib: 1.14.1
+      tslib: 2.8.1
 
-  '@material/dom@6.0.0':
+  '@material/dialog@14.0.0':
     dependencies:
-      '@material/feature-targeting': 6.0.0
-      tslib: 1.14.1
+      '@material/animation': 14.0.0
+      '@material/base': 14.0.0
+      '@material/button': 14.0.0
+      '@material/dom': 14.0.0
+      '@material/elevation': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/icon-button': 14.0.0
+      '@material/ripple': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/shape': 14.0.0
+      '@material/theme': 14.0.0
+      '@material/tokens': 14.0.0
+      '@material/touch-target': 14.0.0
+      '@material/typography': 14.0.0
+      tslib: 2.8.1
 
-  '@material/elevation@6.0.0':
+  '@material/dom@14.0.0':
     dependencies:
-      '@material/animation': 6.0.0
-      '@material/base': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/theme': 6.0.0
+      '@material/feature-targeting': 14.0.0
+      tslib: 2.8.1
 
-  '@material/feature-targeting@6.0.0': {}
-
-  '@material/floating-label@6.0.0':
+  '@material/elevation@14.0.0':
     dependencies:
-      '@material/animation': 6.0.0
-      '@material/base': 6.0.0
-      '@material/dom': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/rtl': 6.0.0
-      '@material/theme': 6.0.0
-      '@material/typography': 6.0.0
-      tslib: 1.14.1
+      '@material/animation': 14.0.0
+      '@material/base': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/theme': 14.0.0
+      tslib: 2.8.1
 
-  '@material/icon-button@6.0.0':
+  '@material/feature-targeting@14.0.0':
     dependencies:
-      '@material/base': 6.0.0
-      '@material/density': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/ripple': 6.0.0
-      '@material/rtl': 6.0.0
-      '@material/theme': 6.0.0
-      tslib: 1.14.1
+      tslib: 2.8.1
 
-  '@material/line-ripple@6.0.0':
+  '@material/floating-label@14.0.0':
     dependencies:
-      '@material/animation': 6.0.0
-      '@material/base': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/theme': 6.0.0
-      tslib: 1.14.1
+      '@material/animation': 14.0.0
+      '@material/base': 14.0.0
+      '@material/dom': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/theme': 14.0.0
+      '@material/typography': 14.0.0
+      tslib: 2.8.1
 
-  '@material/notched-outline@6.0.0':
+  '@material/focus-ring@14.0.0':
     dependencies:
-      '@material/base': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/floating-label': 6.0.0
-      '@material/rtl': 6.0.0
-      '@material/shape': 6.0.0
-      '@material/theme': 6.0.0
-      tslib: 1.14.1
+      '@material/dom': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/rtl': 14.0.0
 
-  '@material/ripple@6.0.0':
+  '@material/icon-button@14.0.0':
     dependencies:
-      '@material/animation': 6.0.0
-      '@material/base': 6.0.0
-      '@material/dom': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/theme': 6.0.0
-      tslib: 1.14.1
+      '@material/base': 14.0.0
+      '@material/density': 14.0.0
+      '@material/dom': 14.0.0
+      '@material/elevation': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/focus-ring': 14.0.0
+      '@material/ripple': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/theme': 14.0.0
+      '@material/touch-target': 14.0.0
+      tslib: 2.8.1
 
-  '@material/rtl@6.0.0': {}
-
-  '@material/shape@6.0.0':
+  '@material/line-ripple@14.0.0':
     dependencies:
-      '@material/feature-targeting': 6.0.0
-      '@material/rtl': 6.0.0
+      '@material/animation': 14.0.0
+      '@material/base': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/theme': 14.0.0
+      tslib: 2.8.1
 
-  '@material/snackbar@6.0.0':
+  '@material/notched-outline@14.0.0':
     dependencies:
-      '@material/animation': 6.0.0
-      '@material/base': 6.0.0
-      '@material/button': 6.0.0
-      '@material/dom': 6.0.0
-      '@material/elevation': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/icon-button': 6.0.0
-      '@material/ripple': 6.0.0
-      '@material/rtl': 6.0.0
-      '@material/shape': 6.0.0
-      '@material/theme': 6.0.0
-      '@material/typography': 6.0.0
-      tslib: 1.14.1
+      '@material/base': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/floating-label': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/shape': 14.0.0
+      '@material/theme': 14.0.0
+      tslib: 2.8.1
 
-  '@material/textfield@6.0.0':
+  '@material/ripple@14.0.0':
     dependencies:
-      '@material/animation': 6.0.0
-      '@material/base': 6.0.0
-      '@material/density': 6.0.0
-      '@material/dom': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/floating-label': 6.0.0
-      '@material/line-ripple': 6.0.0
-      '@material/notched-outline': 6.0.0
-      '@material/ripple': 6.0.0
-      '@material/rtl': 6.0.0
-      '@material/shape': 6.0.0
-      '@material/theme': 6.0.0
-      '@material/typography': 6.0.0
-      tslib: 1.14.1
+      '@material/animation': 14.0.0
+      '@material/base': 14.0.0
+      '@material/dom': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/theme': 14.0.0
+      tslib: 2.8.1
 
-  '@material/theme@6.0.0':
+  '@material/rtl@14.0.0':
     dependencies:
-      '@material/feature-targeting': 6.0.0
+      '@material/theme': 14.0.0
+      tslib: 2.8.1
 
-  '@material/touch-target@6.0.0':
+  '@material/shape@14.0.0':
     dependencies:
-      '@material/base': 6.0.0
-      '@material/feature-targeting': 6.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/theme': 14.0.0
+      tslib: 2.8.1
 
-  '@material/typography@6.0.0':
+  '@material/snackbar@14.0.0':
     dependencies:
-      '@material/feature-targeting': 6.0.0
-      '@material/theme': 6.0.0
+      '@material/animation': 14.0.0
+      '@material/base': 14.0.0
+      '@material/button': 14.0.0
+      '@material/dom': 14.0.0
+      '@material/elevation': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/icon-button': 14.0.0
+      '@material/ripple': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/shape': 14.0.0
+      '@material/theme': 14.0.0
+      '@material/typography': 14.0.0
+      tslib: 2.8.1
+
+  '@material/textfield@14.0.0':
+    dependencies:
+      '@material/animation': 14.0.0
+      '@material/base': 14.0.0
+      '@material/density': 14.0.0
+      '@material/dom': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/floating-label': 14.0.0
+      '@material/line-ripple': 14.0.0
+      '@material/notched-outline': 14.0.0
+      '@material/ripple': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/shape': 14.0.0
+      '@material/theme': 14.0.0
+      '@material/tokens': 14.0.0
+      '@material/typography': 14.0.0
+      tslib: 2.8.1
+
+  '@material/theme@14.0.0':
+    dependencies:
+      '@material/feature-targeting': 14.0.0
+      tslib: 2.8.1
+
+  '@material/tokens@14.0.0':
+    dependencies:
+      '@material/elevation': 14.0.0
+
+  '@material/touch-target@14.0.0':
+    dependencies:
+      '@material/base': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/rtl': 14.0.0
+      tslib: 2.8.1
+
+  '@material/typography@14.0.0':
+    dependencies:
+      '@material/feature-targeting': 14.0.0
+      '@material/theme': 14.0.0
+      tslib: 2.8.1
 
   '@parcel/watcher-android-arm64@2.6.0':
     optional: true
@@ -4386,9 +4429,9 @@ snapshots:
 
   ansi-wrap@0.1.0: {}
 
-  anymatch@2.0.0:
+  anymatch@2.0.0(supports-color@7.2.0):
     dependencies:
-      micromatch: 3.1.10
+      micromatch: 3.1.10(supports-color@7.2.0)
       normalize-path: 2.1.1
     transitivePeerDependencies:
       - supports-color
@@ -4490,13 +4533,13 @@ snapshots:
 
   aws4@1.13.2: {}
 
-  babel-eslint@10.1.0(eslint@7.32.0):
+  babel-eslint@10.1.0(eslint@7.32.0(supports-color@7.2.0))(supports-color@7.2.0):
     dependencies:
       '@babel/code-frame': 7.29.7
       '@babel/parser': 7.29.9
-      '@babel/traverse': 7.29.8
+      '@babel/traverse': 7.29.8(supports-color@7.2.0)
       '@babel/types': 7.29.8
-      eslint: 7.32.0
+      eslint: 7.32.0(supports-color@7.2.0)
       eslint-visitor-keys: 1.3.0
       resolve: 1.22.12
     transitivePeerDependencies:
@@ -4563,7 +4606,7 @@ snapshots:
       balanced-match: 1.0.2
       concat-map: 0.0.1
 
-  braces@2.3.2:
+  braces@2.3.2(supports-color@7.2.0):
     dependencies:
       arr-flatten: 1.1.0
       array-unique: 0.3.2
@@ -4571,7 +4614,7 @@ snapshots:
       fill-range: 4.0.0
       isobject: 3.0.1
       repeat-element: 1.1.4
-      snapdragon: 0.8.2
+      snapdragon: 0.8.2(supports-color@7.2.0)
       snapdragon-node: 2.1.1
       split-string: 3.1.0
       to-regex: 3.0.2
@@ -4657,18 +4700,18 @@ snapshots:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
 
-  chokidar@2.1.8:
+  chokidar@2.1.8(supports-color@7.2.0):
     dependencies:
-      anymatch: 2.0.0
+      anymatch: 2.0.0(supports-color@7.2.0)
       async-each: 1.0.6
-      braces: 2.3.2
+      braces: 2.3.2(supports-color@7.2.0)
       glob-parent: 3.1.0
       inherits: 2.0.4
       is-binary-path: 1.0.1
       is-glob: 4.0.3
       normalize-path: 3.0.0
       path-is-absolute: 1.0.1
-      readdirp: 2.2.1
+      readdirp: 2.2.1(supports-color@7.2.0)
       upath: 1.2.0
     optionalDependencies:
       fsevents: 1.2.13
@@ -4756,10 +4799,10 @@ snapshots:
 
   connect-livereload@0.6.1: {}
 
-  connect@3.7.0:
+  connect@3.7.0(supports-color@7.2.0):
     dependencies:
-      debug: 2.6.9
-      finalhandler: 1.1.2
+      debug: 2.6.9(supports-color@7.2.0)
+      finalhandler: 1.1.2(supports-color@7.2.0)
       parseurl: 1.3.3
       utils-merge: 1.0.1
     transitivePeerDependencies:
@@ -4814,17 +4857,23 @@ snapshots:
     dependencies:
       assert-plus: 1.0.0
 
-  debug@2.6.9:
+  debug@2.6.9(supports-color@7.2.0):
     dependencies:
       ms: 2.0.0
+    optionalDependencies:
+      supports-color: 7.2.0
 
-  debug@3.2.7:
+  debug@3.2.7(supports-color@7.2.0):
     dependencies:
       ms: 2.1.3
+    optionalDependencies:
+      supports-color: 7.2.0
 
-  debug@4.4.3:
+  debug@4.4.3(supports-color@7.2.0):
     dependencies:
       ms: 2.1.3
+    optionalDependencies:
+      supports-color: 7.2.0
 
   decamelize@1.2.0: {}
 
@@ -4992,15 +5041,15 @@ snapshots:
 
   eslint-visitor-keys@2.1.0: {}
 
-  eslint@7.32.0:
+  eslint@7.32.0(supports-color@7.2.0):
     dependencies:
       '@babel/code-frame': 7.12.11
-      '@eslint/eslintrc': 0.4.3
-      '@humanwhocodes/config-array': 0.5.0
+      '@eslint/eslintrc': 0.4.3(supports-color@7.2.0)
+      '@humanwhocodes/config-array': 0.5.0(supports-color@7.2.0)
       ajv: 6.15.0
       chalk: 4.1.2
       cross-spawn: 7.0.6
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
       doctrine: 3.0.0
       enquirer: 2.4.1
       escape-string-regexp: 4.0.0
@@ -5075,14 +5124,14 @@ snapshots:
       d: 1.0.2
       es5-ext: 0.10.64
 
-  expand-brackets@2.1.4:
+  expand-brackets@2.1.4(supports-color@7.2.0):
     dependencies:
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@7.2.0)
       define-property: 0.2.5
       extend-shallow: 2.0.1
       posix-character-classes: 0.1.1
       regex-not: 1.0.2
-      snapdragon: 0.8.2
+      snapdragon: 0.8.2(supports-color@7.2.0)
       to-regex: 3.0.2
     transitivePeerDependencies:
       - supports-color
@@ -5106,15 +5155,15 @@ snapshots:
 
   extend@3.0.2: {}
 
-  extglob@2.0.4:
+  extglob@2.0.4(supports-color@7.2.0):
     dependencies:
       array-unique: 0.3.2
       define-property: 1.0.0
-      expand-brackets: 2.1.4
+      expand-brackets: 2.1.4(supports-color@7.2.0)
       extend-shallow: 2.0.1
       fragment-cache: 0.2.1
       regex-not: 1.0.2
-      snapdragon: 0.8.2
+      snapdragon: 0.8.2(supports-color@7.2.0)
       to-regex: 3.0.2
     transitivePeerDependencies:
       - supports-color
@@ -5156,9 +5205,9 @@ snapshots:
       repeat-string: 1.6.1
       to-regex-range: 2.1.1
 
-  finalhandler@1.1.2:
+  finalhandler@1.1.2(supports-color@7.2.0):
     dependencies:
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@7.2.0)
       encodeurl: 1.0.2
       escape-html: 1.0.3
       on-finished: 2.3.0
@@ -5177,20 +5226,20 @@ snapshots:
     dependencies:
       locate-path: 3.0.0
 
-  findup-sync@2.0.0:
+  findup-sync@2.0.0(supports-color@7.2.0):
     dependencies:
       detect-file: 1.0.0
       is-glob: 3.1.0
-      micromatch: 3.1.10
+      micromatch: 3.1.10(supports-color@7.2.0)
       resolve-dir: 1.0.1
     transitivePeerDependencies:
       - supports-color
 
-  findup-sync@3.0.0:
+  findup-sync@3.0.0(supports-color@7.2.0):
     dependencies:
       detect-file: 1.0.0
       is-glob: 4.0.3
-      micromatch: 3.1.10
+      micromatch: 3.1.10(supports-color@7.2.0)
       resolve-dir: 1.0.1
     transitivePeerDependencies:
       - supports-color
@@ -5336,11 +5385,11 @@ snapshots:
       to-absolute-glob: 2.0.2
       unique-stream: 2.4.0
 
-  glob-watcher@5.0.5:
+  glob-watcher@5.0.5(supports-color@7.2.0):
     dependencies:
-      anymatch: 2.0.0
+      anymatch: 2.0.0(supports-color@7.2.0)
       async-done: 1.3.2
-      chokidar: 2.1.8
+      chokidar: 2.1.8(supports-color@7.2.0)
       is-negated-glob: 1.0.0
       just-debounce: 1.1.0
       normalize-path: 3.0.0
@@ -5398,7 +5447,7 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  gulp-autoprefixer@7.0.1(gulp@4.0.2):
+  gulp-autoprefixer@7.0.1(gulp@4.0.2(supports-color@7.2.0)):
     dependencies:
       autoprefixer: 9.8.8
       fancy-log: 1.3.3
@@ -5407,7 +5456,7 @@ snapshots:
       through2: 3.0.2
       vinyl-sourcemaps-apply: 0.2.1
     optionalDependencies:
-      gulp: 4.0.2
+      gulp: 4.0.2(supports-color@7.2.0)
 
   gulp-better-rollup@4.0.1(rollup@2.80.0):
     dependencies:
@@ -5417,7 +5466,7 @@ snapshots:
       vinyl: 2.2.1
       vinyl-sourcemaps-apply: 0.2.1
 
-  gulp-cli@2.3.0:
+  gulp-cli@2.3.0(supports-color@7.2.0):
     dependencies:
       ansi-colors: 1.1.0
       archy: 1.0.0
@@ -5429,8 +5478,8 @@ snapshots:
       gulplog: 1.0.0
       interpret: 1.4.0
       isobject: 3.0.1
-      liftoff: 3.1.0
-      matchdep: 2.0.0
+      liftoff: 3.1.0(supports-color@7.2.0)
+      matchdep: 2.0.0(supports-color@7.2.0)
       mute-stdout: 1.0.1
       pretty-hrtime: 1.0.3
       replace-homedir: 1.0.0
@@ -5440,17 +5489,17 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  gulp-connect@5.7.0:
+  gulp-connect@5.7.0(supports-color@7.2.0):
     dependencies:
       ansi-colors: 2.0.5
-      connect: 3.7.0
+      connect: 3.7.0(supports-color@7.2.0)
       connect-livereload: 0.6.1
       fancy-log: 1.3.3
       map-stream: 0.0.7
-      send: 0.16.2
-      serve-index: 1.9.2
-      serve-static: 1.16.3
-      tiny-lr: 1.1.1
+      send: 0.16.2(supports-color@7.2.0)
+      serve-index: 1.9.2(supports-color@7.2.0)
+      serve-static: 1.16.3(supports-color@7.2.0)
+      tiny-lr: 1.1.1(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -5473,10 +5522,10 @@ snapshots:
       vinyl: 2.2.1
       vinyl-sourcemaps-apply: 0.2.1
 
-  gulp@4.0.2:
+  gulp@4.0.2(supports-color@7.2.0):
     dependencies:
-      glob-watcher: 5.0.5
-      gulp-cli: 2.3.0
+      glob-watcher: 5.0.5(supports-color@7.2.0)
+      gulp-cli: 2.3.0(supports-color@7.2.0)
       undertaker: 1.3.0
       vinyl-fs: 3.0.3
     transitivePeerDependencies:
@@ -5788,10 +5837,10 @@ snapshots:
       prelude-ls: 1.2.1
       type-check: 0.4.0
 
-  liftoff@3.1.0:
+  liftoff@3.1.0(supports-color@7.2.0):
     dependencies:
       extend: 3.0.2
-      findup-sync: 3.0.0
+      findup-sync: 3.0.0(supports-color@7.2.0)
       fined: 1.2.0
       flagged-respawn: 1.0.1
       is-plain-object: 2.0.4
@@ -5854,10 +5903,10 @@ snapshots:
     dependencies:
       object-visit: 1.0.1
 
-  matchdep@2.0.0:
+  matchdep@2.0.0(supports-color@7.2.0):
     dependencies:
-      findup-sync: 2.0.0
-      micromatch: 3.1.10
+      findup-sync: 2.0.0(supports-color@7.2.0)
+      micromatch: 3.1.10(supports-color@7.2.0)
       resolve: 1.22.12
       stack-trace: 0.0.10
     transitivePeerDependencies:
@@ -5878,20 +5927,20 @@ snapshots:
       redent: 1.0.0
       trim-newlines: 1.0.0
 
-  micromatch@3.1.10:
+  micromatch@3.1.10(supports-color@7.2.0):
     dependencies:
       arr-diff: 4.0.0
       array-unique: 0.3.2
-      braces: 2.3.2
+      braces: 2.3.2(supports-color@7.2.0)
       define-property: 2.0.2
       extend-shallow: 3.0.2
-      extglob: 2.0.4
+      extglob: 2.0.4(supports-color@7.2.0)
       fragment-cache: 0.2.1
       kind-of: 6.0.3
-      nanomatch: 1.2.13
+      nanomatch: 1.2.13(supports-color@7.2.0)
       object.pick: 1.3.0
       regex-not: 1.0.2
-      snapdragon: 0.8.2
+      snapdragon: 0.8.2(supports-color@7.2.0)
       to-regex: 3.0.2
     transitivePeerDependencies:
       - supports-color
@@ -5938,7 +5987,7 @@ snapshots:
 
   nan@2.29.0: {}
 
-  nanomatch@1.2.13:
+  nanomatch@1.2.13(supports-color@7.2.0):
     dependencies:
       arr-diff: 4.0.0
       array-unique: 0.3.2
@@ -5949,7 +5998,7 @@ snapshots:
       kind-of: 6.0.3
       object.pick: 1.3.0
       regex-not: 1.0.2
-      snapdragon: 0.8.2
+      snapdragon: 0.8.2(supports-color@7.2.0)
       to-regex: 3.0.2
     transitivePeerDependencies:
       - supports-color
@@ -6295,10 +6344,10 @@ snapshots:
       string_decoder: 1.3.0
       util-deprecate: 1.0.2
 
-  readdirp@2.2.1:
+  readdirp@2.2.1(supports-color@7.2.0):
     dependencies:
       graceful-fs: 4.2.11
-      micromatch: 3.1.10
+      micromatch: 3.1.10(supports-color@7.2.0)
       readable-stream: 2.3.8
     transitivePeerDependencies:
       - supports-color
@@ -6495,9 +6544,9 @@ snapshots:
 
   semver@7.8.5: {}
 
-  send@0.16.2:
+  send@0.16.2(supports-color@7.2.0):
     dependencies:
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@7.2.0)
       depd: 1.1.2
       destroy: 1.0.4
       encodeurl: 1.0.2
@@ -6513,9 +6562,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  send@0.19.2:
+  send@0.19.2(supports-color@7.2.0):
     dependencies:
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@7.2.0)
       depd: 2.0.0
       destroy: 1.2.0
       encodeurl: 2.0.0
@@ -6531,11 +6580,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  serve-index@1.9.2:
+  serve-index@1.9.2(supports-color@7.2.0):
     dependencies:
       accepts: 1.3.8
       batch: 0.6.1
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@7.2.0)
       escape-html: 1.0.3
       http-errors: 1.8.1
       mime-types: 2.1.35
@@ -6543,12 +6592,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  serve-static@1.16.3:
+  serve-static@1.16.3(supports-color@7.2.0):
     dependencies:
       encodeurl: 2.0.0
       escape-html: 1.0.3
       parseurl: 1.3.3
-      send: 0.19.2
+      send: 0.19.2(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -6626,10 +6675,10 @@ snapshots:
     dependencies:
       kind-of: 3.2.2
 
-  snapdragon@0.8.2:
+  snapdragon@0.8.2(supports-color@7.2.0):
     dependencies:
       base: 0.11.2
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@7.2.0)
       define-property: 0.2.5
       extend-shallow: 2.0.1
       map-cache: 0.2.2
@@ -6834,10 +6883,10 @@ snapshots:
 
   time-stamp@1.1.0: {}
 
-  tiny-lr@1.1.1:
+  tiny-lr@1.1.1(supports-color@7.2.0):
     dependencies:
       body: 5.1.0
-      debug: 3.2.7
+      debug: 3.2.7(supports-color@7.2.0)
       faye-websocket: 0.10.0
       livereload-js: 2.4.0
       object-assign: 4.1.1
@@ -6883,7 +6932,7 @@ snapshots:
     dependencies:
       glob: 7.2.3
 
-  tslib@1.14.1: {}
+  tslib@2.8.1: {}
 
   tunnel-agent@0.6.0:
     dependencies:
