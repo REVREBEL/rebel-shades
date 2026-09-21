@@ -29,12 +29,12 @@
     "values.js": "^2.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
+    "@babel/core": "^8.0.0",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "@babel/plugin-proposal-export-default-from": "^7.8.3",
-    "@babel/plugin-proposal-function-bind": "^7.8.3",
-    "@babel/plugin-proposal-pipeline-operator": "^7.8.3",
-    "@babel/preset-env": "^7.9.5",
+    "@babel/plugin-proposal-export-default-from": "^8.0.0",
+    "@babel/plugin-proposal-function-bind": "^8.0.0",
+    "@babel/plugin-proposal-pipeline-operator": "^8.0.0",
+    "@babel/preset-env": "^8.0.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.1.0",
     "gulp": "^4.0.2",
