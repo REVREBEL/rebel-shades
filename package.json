@@ -43,7 +43,7 @@
     "gulp-connect": "^5.7.0",
     "gulp-sass": "^4.1.1",
     "gulp-uglify-es": "^2.0.0",
-    "rollup": "^2.80.0",
+    "rollup": "^4.0.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-root-import": "^1.0.0",
     "sass": "^1.104.1"
