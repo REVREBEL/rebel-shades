@@ -24,9 +24,9 @@
     "@material/ripple": "^6.0.0",
     "@material/snackbar": "^6.0.0",
     "@material/textfield": "^6.0.0",
-    "@simonwep/pickr": "^1.5.1",
+    "@simonwep/pickr": "^1.10.2",
     "copy-text-to-clipboard": "^2.2.0",
-    "values.js": "^2.0.0"
+    "values.js": "^2.1.1"
   },
   "devDependencies": {
     "@babel/core": "^8.0.0",
@@ -36,18 +36,16 @@
     "@babel/plugin-proposal-pipeline-operator": "^8.0.0",
     "@babel/preset-env": "^8.0.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.1.0",
+    "eslint": "^7.32.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-better-rollup": "^4.0.1",
     "gulp-connect": "^5.7.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^4.1.1",
     "gulp-uglify-es": "^2.0.0",
-    "rollup": "^2.10.9",
-    "@rollup/plugin-babel": "^5.0.0",
+    "rollup": "^2.80.0",
     "rollup-plugin-commonjs": "^10.1.0",
-    "@rollup/plugin-node-resolve": "^6.0.0",
     "rollup-plugin-root-import": "^1.0.0",
-    "sass": "^1.26.3"
+    "sass": "^1.104.1"
   }
 }
