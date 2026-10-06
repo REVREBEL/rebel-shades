@@ -5,8 +5,7 @@
   "description": "Shades and tints generator online.",
   "scripts": {
     "start": "gulp",
-    "build": "gulp build",
-    "verify": "gulp verify"
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
