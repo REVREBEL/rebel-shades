@@ -1,4 +1,4 @@
-const { rollup } = require('rollup');
+const { rollup, VERSION } = require('rollup');
 
 const virtualEntry = '\0copy-text-to-clipboard-smoke-entry';
 
@@ -33,6 +33,6 @@ const virtualEntry = '\0copy-text-to-clipboard-smoke-entry';
   }
 
   console.log(
-    `Verified copy-text-to-clipboard can be resolved and bundled by Rollup ${require('rollup/package.json').version}.`
+    `Verified copy-text-to-clipboard can be resolved and bundled by Rollup ${VERSION}.`
   );
 })();
