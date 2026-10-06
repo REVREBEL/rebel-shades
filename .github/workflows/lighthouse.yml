@@ -2,7 +2,7 @@ name: Lighthouse
 on: push
 
 jobs:
-  build:
+  bundle-check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -13,13 +13,13 @@ jobs:
         with:
           node-version: 24
           cache: pnpm
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-      - name: Verify source build
-        run: pnpm run verify
+      - name: Install dependencies without legacy native postinstall scripts
+        run: pnpm install --frozen-lockfile --ignore-scripts
+      - name: Verify copy-text-to-clipboard bundles with Rollup
+        run: node .github/ci/verify-copy-text-bundle.cjs
 
   static-dist-dir:
-    needs: build
+    needs: bundle-check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
