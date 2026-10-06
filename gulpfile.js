@@ -73,4 +73,5 @@ const scriptsDist = () => src('dist/js/index.js')
   .pipe(dest('dist/js/'));
 
 exports.default = parallel(watchTask, serverTask);
+exports.verify = parallel(stylesTask, scriptsTask);
 exports.build = parallel(stylesDist, scriptsDist);
