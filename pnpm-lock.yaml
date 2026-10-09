@@ -9,23 +9,23 @@ importers:
   .:
     dependencies:
       '@material/button':
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^14.0.0
+        version: 14.0.0
       '@material/dialog':
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^14.0.0
+        version: 14.0.0
       '@material/icon-button':
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^14.0.0
+        version: 14.0.0
       '@material/ripple':
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^14.0.0
+        version: 14.0.0
       '@material/snackbar':
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^14.0.0
+        version: 14.0.0
       '@material/textfield':
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^14.0.0
+        version: 14.0.0
       '@simonwep/pickr':
         specifier: ^1.10.2
         version: 1.10.2
@@ -757,65 +757,71 @@ packages:
   '@keyv/serialize@1.1.1':
     resolution: {integrity: sha512-dXn3FZhPv0US+7dtJsIi2R+c7qWYiReoEh5zUntWCf4oSpMNib8FDhSoed6m3QyZdx5hK7iLFkYk3rNxwt8vTA==}
 
-  '@material/animation@6.0.0':
-    resolution: {integrity: sha512-BxlzXzQ5W2WtaEVV4/PqkTpKB5PfOUvPmr1EK8+xQ0ouMV4qiWuwBfnu7DgXF+cglpFP3T71uHVYmh6lMdi4vg==}
+  '@material/animation@14.0.0':
+    resolution: {integrity: sha512-VlYSfUaIj/BBVtRZI8Gv0VvzikFf+XgK0Zdgsok5c1v5DDnNz5tpB8mnGrveWz0rHbp1X4+CWLKrTwNmjrw3Xw==}
 
-  '@material/base@6.0.0':
-    resolution: {integrity: sha512-S3rT7B9xa9IfHXIvYXYqbo6YVu9FWbFqTt1tMUCniizTRlpmHu9b5pmQ20f6mm3K3wAFD+crqsrtie2Y8h8r5g==}
+  '@material/base@14.0.0':
+    resolution: {integrity: sha512-Ou7vS7n1H4Y10MUZyYAbt6H0t67c6urxoCgeVT7M38aQlaNUwFMODp7KT/myjYz2YULfhu3PtfSV3Sltgac9mA==}
 
-  '@material/button@6.0.0':
-    resolution: {integrity: sha512-Xv83A5dL5l8hQHM1gOeD/0DpjsbzPeZtrXBWvf2q0d1uN0LE52ocrTHXJnJw9zNudoaBTopTQDsFQEdWqVYlFA==}
+  '@material/button@14.0.0':
+    resolution: {integrity: sha512-dqqHaJq0peyXBZupFzCjmvScrfljyVU66ZCS3oldsaaj5iz8sn33I/45Z4zPzdR5F5z8ExToHkRcXhakj1UEAA==}
 
-  '@material/density@6.0.0':
-    resolution: {integrity: sha512-svKiq7XtUg89hf08XGFF46NdiQAZfey5CiatmNxD3WX7LUoCb5zc8K9BqPL63P1Sh6kty9R0AHj+6w4ASFetPA==}
+  '@material/density@14.0.0':
+    resolution: {integrity: sha512-NlxXBV5XjNsKd8UXF4K/+fOXLxoFNecKbsaQO6O2u+iG8QBfFreKRmkhEBb2hPPwC3w8nrODwXX0lHV+toICQw==}
 
-  '@material/dialog@6.0.0':
-    resolution: {integrity: sha512-3jWoCFYfT2qx1Iz3OT8mIiRXgESQY8OiWD5N7IwkZXzZgO5fNC0SL05NQaKEQ5lwyVPvQP/DggPYc2jveiPWhQ==}
+  '@material/dialog@14.0.0':
+    resolution: {integrity: sha512-E07NEE4jP8jHaw/y2Il2R1a3f4wDFh2sgfCBtRO/Xh0xxJUMuQ7YXo/F3SAA8jfMbbkUv/PHdJUM3I3HmI9mAA==}
 
-  '@material/dom@6.0.0':
-    resolution: {integrity: sha512-9hvoi3MxR25dmyv15xJGRS+Ezlr0oD+Y6k4UyAbLpExFP2OakTZc8Xj0Fd7Nwav3I5aIXyC5jJ2gvhZcy1cI9A==}
+  '@material/dom@14.0.0':
+    resolution: {integrity: sha512-8t88XyacclTj8qsIw9q0vEj4PI2KVncLoIsIMzwuMx49P2FZg6TsLjor262MI3Qs00UWAifuLMrhnOnfyrbe7Q==}
 
-  '@material/elevation@6.0.0':
-    resolution: {integrity: sha512-9WNBu/MKTQX40Ev3ayq5V8Pf/E/DqUPRQO8F0YA99jRWuYScpX2zeJlpRe+wLI6zIxtfFcVvRW9D4O1s1Bmbdg==}
+  '@material/elevation@14.0.0':
+    resolution: {integrity: sha512-Di3tkxTpXwvf1GJUmaC8rd+zVh5dB2SWMBGagL4+kT8UmjSISif/OPRGuGnXs3QhF6nmEjkdC0ijdZLcYQkepw==}
 
-  '@material/feature-targeting@6.0.0':
-    resolution: {integrity: sha512-REj9VJnqkGwpngffc/iHGPt8WTF27QFPWDD8VBNXaP+MmnpIu7V5q5JMoozKzG5uk+hVryzam1i2PJHztizDXg==}
+  '@material/feature-targeting@14.0.0':
+    resolution: {integrity: sha512-a5WGgHEq5lJeeNL5yevtgoZjBjXWy6+klfVWQEh8oyix/rMJygGgO7gEc52uv8fB8uAIoYEB3iBMOv8jRq8FeA==}
 
-  '@material/floating-label@6.0.0':
-    resolution: {integrity: sha512-hLCsJKAJtVUUcxTbphqn6JZTbkOa3TW5nLgcwcgWqTbjOWOafppnplKELeM+6oDvwg/YDcGSsvuPUOsCMRiXvw==}
+  '@material/floating-label@14.0.0':
+    resolution: {integrity: sha512-Aq8BboP1sbNnOtsV72AfaYirHyOrQ/GKFoLrZ1Jt+ZGIAuXPETcj9z7nQDznst0ZeKcz420PxNn9tsybTbeL/Q==}
 
-  '@material/icon-button@6.0.0':
-    resolution: {integrity: sha512-ak1BIG20FVAIj4oV20YbDhvYWIS8kn6cCcJomVBB/f8uA4OX6NO77xwaJ9tBZTURkvLJ0Z5coDLinxOHN15ffQ==}
+  '@material/focus-ring@14.0.0':
+    resolution: {integrity: sha512-fqqka6iSfQGJG3Le48RxPCtnOiaLGPDPikhktGbxlyW9srBVMgeCiONfHM7IT/1eu80O0Y67Lh/4ohu5+C+VAQ==}
 
-  '@material/line-ripple@6.0.0':
-    resolution: {integrity: sha512-LppQy+bnkAD+tyGOA6/GzE4/xBGRzvJNGJZe0OvClerBxM9yOtxd8Xa8VJ+ul1hTNR/OCB2HSTWNQq5fyqTQHg==}
+  '@material/icon-button@14.0.0':
+    resolution: {integrity: sha512-wHMqzm7Q/UwbWLoWv32Li1r2iVYxadIrwTNxT0+p+7NdfI3lEwMN3NoB0CvoJnHTljjXDzce0KJ3nZloa0P0gA==}
 
-  '@material/notched-outline@6.0.0':
-    resolution: {integrity: sha512-fSn/3rQblUmFny3qeCnWgXkQyV+nfpuXmPhf41cjUlu28TnTKA2YayL+vg8Ebi97l6osAFaT/1dEaebvpwebaQ==}
+  '@material/line-ripple@14.0.0':
+    resolution: {integrity: sha512-Rx9eSnfp3FcsNz4O+fobNNq2PSm5tYHC3hRpY2ZK3ghTvgp3Y40/soaGEi/Vdg0F7jJXRaBSNOe6p5t9CVfy8Q==}
 
-  '@material/ripple@6.0.0':
-    resolution: {integrity: sha512-z+ARpjBVkRZBhiX20aAxAMrgBcfpcCRqIcI/E3Esfyo7M+q/mm8t92ZumcahxWnOBJkHM55kkpUqHlfkYlfyZQ==}
+  '@material/notched-outline@14.0.0':
+    resolution: {integrity: sha512-6S58DlWmhCDr4RQF2RuwqANxlmLdHtWy2mF4JQLD9WOiCg4qY9eCQnMXu3Tbhr7f/nOZ0vzc7AtA3vfJoZmCSw==}
 
-  '@material/rtl@6.0.0':
-    resolution: {integrity: sha512-/WkzlUm3qylWMqv7Lw7ColZ8DYvEvTXtevxxz7PKM1hT9FNlbO1/Qywvda4VUtXivEeynXEqeT1T/ZYHV9yDVw==}
+  '@material/ripple@14.0.0':
+    resolution: {integrity: sha512-9XoGBFd5JhFgELgW7pqtiLy+CnCIcV2s9cQ2BWbOQeA8faX9UZIDUx/g76nHLZ7UzKFtsULJxZTwORmsEt2zvw==}
 
-  '@material/shape@6.0.0':
-    resolution: {integrity: sha512-tZT9GGWI3QcOtyfJ07Hc3noP2b5Bvx2npx/aj+k7gEIkE06mzr08dVnVOup8z8HbHWIenxRJgdeF5+lAfBE3vw==}
+  '@material/rtl@14.0.0':
+    resolution: {integrity: sha512-xl6OZYyRjuiW2hmbjV2omMV8sQtfmKAjeWnD1RMiAPLCTyOW9Lh/PYYnXjxUrNa0cRwIIbOn5J7OYXokja8puA==}
 
-  '@material/snackbar@6.0.0':
-    resolution: {integrity: sha512-Cu2DXatt50qllxfJu4VwWTF74eg61bP7jmVE29O6y4LsHIjj1LYYEGBKJNYOPgsAXGgjqB+D4ssrWEr0Hl4Sew==}
+  '@material/shape@14.0.0':
+    resolution: {integrity: sha512-o0mJB0+feOv473KckI8gFnUo8IQAaEA6ynXzw3VIYFjPi48pJwrxa0mZcJP/OoTXrCbDzDeFJfDPXEmRioBb9A==}
 
-  '@material/textfield@6.0.0':
-    resolution: {integrity: sha512-BZAdsVYilstY4rvHxb0n/Vgs4/IcAO7U5dpcLDRWJlvOtbtfxNl4C5HuSaVUz7Mxr7+HhZAZfz3GkC1YY9XeEQ==}
+  '@material/snackbar@14.0.0':
+    resolution: {integrity: sha512-28uQBj9bw7BalNarK9j8/aVW4Ys5aRaGHoWH+CeYvAjqQUJkrYoqM52aiKhBwqrjBPMJHk1aXthe3YbzMBm6vA==}
 
-  '@material/theme@6.0.0':
-    resolution: {integrity: sha512-dViBx1lsidoQhVi/MYksTmDs8aUPj3mPVQIaBPtDRtqpIuWSwG7bCHoY8rG8FHRduPLpq3b1A4OwKHBd0RWVJw==}
+  '@material/textfield@14.0.0':
+    resolution: {integrity: sha512-HGbtAlvlIB2vWBq85yw5wQeeP3Kndl6Z0TJzQ6piVtcfdl2mPyWhuuVHQRRAOis3rCIaAAaxCQYYTJh8wIi0XQ==}
 
-  '@material/touch-target@6.0.0':
-    resolution: {integrity: sha512-qZjrxo6honqxRV2Gy7spgkfj1qzSwy2IC8xtQb6bIolDD7kbzOxmyyaMi+TxQE0QnRWG/w6DVBSsPPQGNt4Saw==}
+  '@material/theme@14.0.0':
+    resolution: {integrity: sha512-6/SENWNIFuXzeHMPHrYwbsXKgkvCtWuzzQ3cUu4UEt3KcQ5YpViazIM6h8ByYKZP8A9d8QpkJ0WGX5btGDcVoA==}
 
-  '@material/typography@6.0.0':
-    resolution: {integrity: sha512-+4UUEYOxINMRUdyAltd1HFydjAy+MeXqUkFUXXNVsi5nFlpGTpMrxriwVaeL++XlGgvziJjDzaOe6S7zkwYxOQ==}
+  '@material/tokens@14.0.0':
+    resolution: {integrity: sha512-SXgB9VwsKW4DFkHmJfDIS0x0cGdMWC1D06m6z/WQQ5P5j6/m0pKrbHVlrLzXcRjau+mFhXGvj/KyPo9Pp/Rc8Q==}
+
+  '@material/touch-target@14.0.0':
+    resolution: {integrity: sha512-o3kvxmS4HkmZoQTvtzLJrqSG+ezYXkyINm3Uiwio1PTg67pDgK5FRwInkz0VNaWPcw9+5jqjUQGjuZMtjQMq8w==}
+
+  '@material/typography@14.0.0':
+    resolution: {integrity: sha512-/QtHBYiTR+TPMryM/CT386B2WlAQf/Ae32V324Z7P40gHLKY/YBXx7FDutAWZFeOerq/two4Nd2aAHBcMM2wMw==}
 
   '@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1':
     resolution: {integrity: sha512-54/JRvkLIzzDWshCWfuhadfrfZVPiElY8Fcgmg1HroEly/EDSszzhBAsarCux+D/kOslTRquNzuyGSmUSTTHGg==}
@@ -3116,8 +3122,8 @@ packages:
   true-case-path@1.0.3:
     resolution: {integrity: sha512-m6s2OdQe5wgpFMC+pAJ+q9djG82O2jcHPOI6RNg1yy9rCYR+WD6Nbpl32fDpfC56nirdRy+opFa/Vk7HYhqaew==}
 
-  tslib@1.14.1:
-    resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
+  tslib@2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
   tunnel-agent@0.6.0:
     resolution: {integrity: sha512-McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR2NZuQ+w==}
@@ -4096,159 +4102,196 @@ snapshots:
 
   '@keyv/serialize@1.1.1': {}
 
-  '@material/animation@6.0.0':
+  '@material/animation@14.0.0':
     dependencies:
-      tslib: 1.14.1
+      tslib: 2.8.1
 
-  '@material/base@6.0.0':
+  '@material/base@14.0.0':
     dependencies:
-      tslib: 1.14.1
+      tslib: 2.8.1
 
-  '@material/button@6.0.0':
+  '@material/button@14.0.0':
     dependencies:
-      '@material/density': 6.0.0
-      '@material/elevation': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/ripple': 6.0.0
-      '@material/rtl': 6.0.0
-      '@material/shape': 6.0.0
-      '@material/theme': 6.0.0
-      '@material/touch-target': 6.0.0
-      '@material/typography': 6.0.0
+      '@material/density': 14.0.0
+      '@material/dom': 14.0.0
+      '@material/elevation': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/focus-ring': 14.0.0
+      '@material/ripple': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/shape': 14.0.0
+      '@material/theme': 14.0.0
+      '@material/tokens': 14.0.0
+      '@material/touch-target': 14.0.0
+      '@material/typography': 14.0.0
+      tslib: 2.8.1
 
-  '@material/density@6.0.0': {}
-
-  '@material/dialog@6.0.0':
+  '@material/density@14.0.0':
     dependencies:
-      '@material/animation': 6.0.0
-      '@material/base': 6.0.0
-      '@material/button': 6.0.0
-      '@material/dom': 6.0.0
-      '@material/elevation': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/ripple': 6.0.0
-      '@material/rtl': 6.0.0
-      '@material/shape': 6.0.0
-      '@material/theme': 6.0.0
-      '@material/touch-target': 6.0.0
-      '@material/typography': 6.0.0
-      tslib: 1.14.1
+      tslib: 2.8.1
 
-  '@material/dom@6.0.0':
+  '@material/dialog@14.0.0':
     dependencies:
-      '@material/feature-targeting': 6.0.0
-      tslib: 1.14.1
+      '@material/animation': 14.0.0
+      '@material/base': 14.0.0
+      '@material/button': 14.0.0
+      '@material/dom': 14.0.0
+      '@material/elevation': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/icon-button': 14.0.0
+      '@material/ripple': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/shape': 14.0.0
+      '@material/theme': 14.0.0
+      '@material/tokens': 14.0.0
+      '@material/touch-target': 14.0.0
+      '@material/typography': 14.0.0
+      tslib: 2.8.1
 
-  '@material/elevation@6.0.0':
+  '@material/dom@14.0.0':
     dependencies:
-      '@material/animation': 6.0.0
-      '@material/base': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/theme': 6.0.0
+      '@material/feature-targeting': 14.0.0
+      tslib: 2.8.1
 
-  '@material/feature-targeting@6.0.0': {}
-
-  '@material/floating-label@6.0.0':
+  '@material/elevation@14.0.0':
     dependencies:
-      '@material/animation': 6.0.0
-      '@material/base': 6.0.0
-      '@material/dom': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/rtl': 6.0.0
-      '@material/theme': 6.0.0
-      '@material/typography': 6.0.0
-      tslib: 1.14.1
+      '@material/animation': 14.0.0
+      '@material/base': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/theme': 14.0.0
+      tslib: 2.8.1
 
-  '@material/icon-button@6.0.0':
+  '@material/feature-targeting@14.0.0':
     dependencies:
-      '@material/base': 6.0.0
-      '@material/density': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/ripple': 6.0.0
-      '@material/rtl': 6.0.0
-      '@material/theme': 6.0.0
-      tslib: 1.14.1
+      tslib: 2.8.1
 
-  '@material/line-ripple@6.0.0':
+  '@material/floating-label@14.0.0':
     dependencies:
-      '@material/animation': 6.0.0
-      '@material/base': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/theme': 6.0.0
-      tslib: 1.14.1
+      '@material/animation': 14.0.0
+      '@material/base': 14.0.0
+      '@material/dom': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/theme': 14.0.0
+      '@material/typography': 14.0.0
+      tslib: 2.8.1
 
-  '@material/notched-outline@6.0.0':
+  '@material/focus-ring@14.0.0':
     dependencies:
-      '@material/base': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/floating-label': 6.0.0
-      '@material/rtl': 6.0.0
-      '@material/shape': 6.0.0
-      '@material/theme': 6.0.0
-      tslib: 1.14.1
+      '@material/dom': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/rtl': 14.0.0
 
-  '@material/ripple@6.0.0':
+  '@material/icon-button@14.0.0':
     dependencies:
-      '@material/animation': 6.0.0
-      '@material/base': 6.0.0
-      '@material/dom': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/theme': 6.0.0
-      tslib: 1.14.1
+      '@material/base': 14.0.0
+      '@material/density': 14.0.0
+      '@material/dom': 14.0.0
+      '@material/elevation': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/focus-ring': 14.0.0
+      '@material/ripple': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/theme': 14.0.0
+      '@material/touch-target': 14.0.0
+      tslib: 2.8.1
 
-  '@material/rtl@6.0.0': {}
-
-  '@material/shape@6.0.0':
+  '@material/line-ripple@14.0.0':
     dependencies:
-      '@material/feature-targeting': 6.0.0
-      '@material/rtl': 6.0.0
+      '@material/animation': 14.0.0
+      '@material/base': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/theme': 14.0.0
+      tslib: 2.8.1
 
-  '@material/snackbar@6.0.0':
+  '@material/notched-outline@14.0.0':
     dependencies:
-      '@material/animation': 6.0.0
-      '@material/base': 6.0.0
-      '@material/button': 6.0.0
-      '@material/dom': 6.0.0
-      '@material/elevation': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/icon-button': 6.0.0
-      '@material/ripple': 6.0.0
-      '@material/rtl': 6.0.0
-      '@material/shape': 6.0.0
-      '@material/theme': 6.0.0
-      '@material/typography': 6.0.0
-      tslib: 1.14.1
+      '@material/base': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/floating-label': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/shape': 14.0.0
+      '@material/theme': 14.0.0
+      tslib: 2.8.1
 
-  '@material/textfield@6.0.0':
+  '@material/ripple@14.0.0':
     dependencies:
-      '@material/animation': 6.0.0
-      '@material/base': 6.0.0
-      '@material/density': 6.0.0
-      '@material/dom': 6.0.0
-      '@material/feature-targeting': 6.0.0
-      '@material/floating-label': 6.0.0
-      '@material/line-ripple': 6.0.0
-      '@material/notched-outline': 6.0.0
-      '@material/ripple': 6.0.0
-      '@material/rtl': 6.0.0
-      '@material/shape': 6.0.0
-      '@material/theme': 6.0.0
-      '@material/typography': 6.0.0
-      tslib: 1.14.1
+      '@material/animation': 14.0.0
+      '@material/base': 14.0.0
+      '@material/dom': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/theme': 14.0.0
+      tslib: 2.8.1
 
-  '@material/theme@6.0.0':
+  '@material/rtl@14.0.0':
     dependencies:
-      '@material/feature-targeting': 6.0.0
+      '@material/theme': 14.0.0
+      tslib: 2.8.1
 
-  '@material/touch-target@6.0.0':
+  '@material/shape@14.0.0':
     dependencies:
-      '@material/base': 6.0.0
-      '@material/feature-targeting': 6.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/theme': 14.0.0
+      tslib: 2.8.1
 
-  '@material/typography@6.0.0':
+  '@material/snackbar@14.0.0':
     dependencies:
-      '@material/feature-targeting': 6.0.0
-      '@material/theme': 6.0.0
+      '@material/animation': 14.0.0
+      '@material/base': 14.0.0
+      '@material/button': 14.0.0
+      '@material/dom': 14.0.0
+      '@material/elevation': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/icon-button': 14.0.0
+      '@material/ripple': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/shape': 14.0.0
+      '@material/theme': 14.0.0
+      '@material/typography': 14.0.0
+      tslib: 2.8.1
+
+  '@material/textfield@14.0.0':
+    dependencies:
+      '@material/animation': 14.0.0
+      '@material/base': 14.0.0
+      '@material/density': 14.0.0
+      '@material/dom': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/floating-label': 14.0.0
+      '@material/line-ripple': 14.0.0
+      '@material/notched-outline': 14.0.0
+      '@material/ripple': 14.0.0
+      '@material/rtl': 14.0.0
+      '@material/shape': 14.0.0
+      '@material/theme': 14.0.0
+      '@material/tokens': 14.0.0
+      '@material/typography': 14.0.0
+      tslib: 2.8.1
+
+  '@material/theme@14.0.0':
+    dependencies:
+      '@material/feature-targeting': 14.0.0
+      tslib: 2.8.1
+
+  '@material/tokens@14.0.0':
+    dependencies:
+      '@material/elevation': 14.0.0
+
+  '@material/touch-target@14.0.0':
+    dependencies:
+      '@material/base': 14.0.0
+      '@material/feature-targeting': 14.0.0
+      '@material/rtl': 14.0.0
+      tslib: 2.8.1
+
+  '@material/typography@14.0.0':
+    dependencies:
+      '@material/feature-targeting': 14.0.0
+      '@material/theme': 14.0.0
+      tslib: 2.8.1
 
   '@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1':
     dependencies:
@@ -6792,7 +6835,7 @@ snapshots:
     dependencies:
       glob: 7.2.3
 
-  tslib@1.14.1: {}
+  tslib@2.8.1: {}
 
   tunnel-agent@0.6.0:
     dependencies:
