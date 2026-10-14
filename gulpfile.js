@@ -1,15 +1,13 @@
-const { src, dest, parallel, watch } = require('gulp'),
-  rollup          = require('gulp-better-rollup'),
-  babel           = require('rollup-plugin-babel'),
-  sass            = require('gulp-sass'),
-  autoprefixer    = require('gulp-autoprefixer'),
-  uglify          = require('gulp-uglify-es').default,
-  connect         = require('gulp-connect'),
-  rootImport      = require('rollup-plugin-root-import'),
-  nodeResolve     = require('rollup-plugin-node-resolve'),
-  commonjs        = require('rollup-plugin-commonjs');
-
-sass.compiler = require('sass');
+const { src, dest, parallel, series, watch } = require('gulp');
+const rollup = require('gulp-better-rollup');
+const babel = require('rollup-plugin-babel');
+const sass = require('gulp-sass')(require('sass'));
+const autoprefixer = require('gulp-autoprefixer').default || require('gulp-autoprefixer');
+const uglify = require('gulp-uglify-es').default;
+const connect = require('gulp-connect');
+const rootImport = require('rollup-plugin-root-import');
+const nodeResolve = require('rollup-plugin-node-resolve');
+const commonjs = require('rollup-plugin-commonjs');
 
 const serverTask = (done) => {
   connect.server({
@@ -22,19 +20,22 @@ const serverTask = (done) => {
 
 const stylesTask = () => src('src/sass/app.scss')
   .pipe(sass({
+    loadPaths: [
+      'node_modules',
+      require('path').resolve(__dirname, 'node_modules')
+    ],
     includePaths: [
       'node_modules',
       require('path').resolve(__dirname, 'node_modules')
     ]
-  }))
-  .pipe(autoprefixer('last 2 version'))
+  }).on('error', sass.logError))
+  .pipe(autoprefixer({ overrideBrowserslist: ['last 2 versions'] }))
   .pipe(dest('dist/css'))
   .pipe(connect.reload());
 
 const scriptsTask = () => src('src/javascripts/index.js')
   .pipe(rollup({
     rollup: require('rollup'),
-    // There is no `input` option as rollup integrates into the gulp pipeline
     plugins: [
       nodeResolve({
         mainFields: ['module', 'main', 'browser']
@@ -49,7 +50,6 @@ const scriptsTask = () => src('src/javascripts/index.js')
       babel()
     ]
   }, {
-    // Rollups `sourcemap` option is unsupported. Use `gulp-sourcemaps` plugin instead
     format: 'umd',
   }))
   .pipe(dest('dist/js'))
@@ -64,8 +64,19 @@ const watchTask = (done) => {
   done();
 };
 
-const stylesDist = () => src('dist/css/app.css')
-  .pipe(sass({ outputStyle: 'compressed' }))
+const stylesDist = () => src('src/sass/app.scss')
+  .pipe(sass({
+    outputStyle: 'compressed',
+    loadPaths: [
+      'node_modules',
+      require('path').resolve(__dirname, 'node_modules')
+    ],
+    includePaths: [
+      'node_modules',
+      require('path').resolve(__dirname, 'node_modules')
+    ]
+  }).on('error', sass.logError))
+  .pipe(autoprefixer({ overrideBrowserslist: ['last 2 versions'] }))
   .pipe(dest('dist/css'));
 
 const scriptsDist = () => src('dist/js/index.js')
@@ -73,4 +84,4 @@ const scriptsDist = () => src('dist/js/index.js')
   .pipe(dest('dist/js/'));
 
 exports.default = parallel(watchTask, serverTask);
-exports.build = parallel(stylesDist, scriptsDist);
+exports.build = parallel(stylesDist, series(scriptsTask, scriptsDist));
